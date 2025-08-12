@@ -3,10 +3,10 @@
 
 <!--head tag-->
     <head>
-        <meta chatset="UTF-8">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width initial-scale=1.0">
         <title>ClipMine</title>
-        <link rel="sytlesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css">
     </head>
 
 <!--body tag-->
@@ -16,24 +16,22 @@
         <div class="logo">
             <img src="Images/logo.png" alt="ClipMine Logo">
         </div>
-        <nav class="nav">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Help</a></li>
-                <li><a href="#">Search</a></li>
-            </ul>
+        <nav class="nav-left">
+            <a href="#">Home</a>
+            <a href="#">Help</a>
+            <a href="#">Search</a>
         </nav>
-        <div class="header-links">
+        <nav class="nav-right">
             <a href="#">Blog</a>
             <a href="#">Log In</a>
             <a href="#">Sign Up</a>
-        </div>
+        </nav>
     </header>
 
 <!--Hero section-->
     <section class="info">
-        <div class="info-content">
-            <img src="Images/top-section.jpg" alt="">
+    <!-- <img src="Images/top-section.jpg" alt=""> -->
+        <div class="info-content" style="background-image: url(Images/top-section.jpg);">
             <h1>Better Video Experience for the Web</h1>
             <p>ClipMine enables bloggers, creators and enthusiasts to tag content inside online videos and create a more engaging video experience</p>
             <a href="#" class="button">Sign Up</a>
@@ -46,11 +44,12 @@
 
         <!--Suggested Videos-->
         <div class="sug-videos">
-
             <div class="video">
                 <img src="video1.jpg" alt="Video Thumbnail">
                 <p>@01:00:20 Greatest thing about Bill and Steve's Relationship</p>
-                <p><img src="Images/tag-icon.png"> 4 people tagged  <img src="Images/forward-icon.png"> 170</p>
+                <p>
+                <img src="Images/tag-icon.png"> 4 people tagged  <img src="Images/forward-icon.png"> 170
+                </p>
                 <div class="video-actions">
                     <a href="#">Embed</a>
                     <a href="#">Share</a>
@@ -60,7 +59,9 @@
             <div class="video">
                 <img src="Images/video2.png" alt="Video Thumbnail">
                 <p>@01:59 Hook: Emma Stone Greatest thing about Bill.........</p>
-                <p><img src="Images/tag-icon.png"> 3 people tagged  <img src="Images/forward-icon.png"> 200</p>
+                <p>
+                <img src="Images/tag-icon.png"> 3 people tagged  <img src="Images/forward-icon.png"> 200
+                </p>
                 <div class="video-actions">
                     <a href="#">Embed</a>
                     <a href="#">Share</a>
@@ -70,7 +71,9 @@
             <div class="video">
                 <img src="vide3.jpg" alt="Video Thumbnail">
                 <p>@13:34 Real Pip-Boy with 2nd screen experience Emma Stone.....</p>
-                <p><img src="Images/tag-icon.png"> 2 people tagged  <img src="Images/forward-icon.png"> 305</p>
+                <p>
+                <img src="Images/tag-icon.png"> 2 people tagged  <img src="Images/forward-icon.png"> 305
+                </p>
                 <div class="video-actions">
                     <a href="#">Embed</a>
                     <a href="#">Share</a>
@@ -110,21 +113,27 @@
         <h2>Benefits</h2>
         <ul>
             <li>
-            <img src="Images/personal-benefit.png" alt="">
-            <strong>Personalized Experience</strong>
-            <p>ClipMine allows your viewers to the video content and see what's inside, through it and specific parts of the videos they like.</p>
+                <img src="Images/personal-benefit.png" alt="">
+            <div>
+                <strong>Personalized Experience</strong>
+                <p>ClipMine allows your viewers to the video content and see what's inside, through it and specific parts of the videos they like.</p>
             </li>
+            </div>
 
             <li>
-            <img src="Images/improve-engagement.png" alt="">
-            <strong>Improved Enagagement</strong>
-            <p>Our customers have seen up to 50% higher engagement and lower early drop-off rates on their videos when embedded with ClipMine.</p>
+                <img src="Images/improve-engagement.png" alt="">
+            <div>
+                <strong>Improved Enagagement</strong>
+                <p>Our customers have seen up to 50% higher engagement and lower early drop-off rates on their videos when embedded with ClipMine.</p>
+            </div>
             </li>
 
             <li>
             <img src="Images/analytics.png" alt="">
-            <strong>Actionable Analytics</strong>
-            <p>Our in-video analytics (by invitation only) allow you to understand user engagement in terms of your content rather than timestamps. You'll exactly know how which parts of the video are more likely to be clicked anf how long users stay there.</p>
+            <div>
+                <strong>Actionable Analytics</strong>
+                <p>Our in-video analytics (by invitation only) allow you to understand user engagement in terms of your content rather than timestamps. You'll exactly know how which parts of the video are more likely to be clicked anf how long users stay there.</p>
+            </div>
             </li>
         </ul>
     </section>
@@ -133,11 +142,11 @@
     <section class="collection">
         <h2>ClipMine Video Collections</h2>
         <div class="collection-grid">
-            <div class="collection-item">
-                <img src="Images/collection-startup.png" alt="">STARTUPS
+            <div class="collection-item" style="background-image: url(Images/collection-startup.png);">
+                <p>STARTUPS</p>
             </div>
-            <div class="collection-item">
-                <img src="Images/collection-ml.png" alt="">MACHINE LEARNING
+            <div class="collection-item" style="background-image: url(Images/collection-ml.png);">
+                <p>MACHINE LEARNING</p>
             </div>
         </div>
         <p class="detail">These are curated lists of high quality online videos, tagged by ClipMine's smart algorithms and editors to demonstrate the usefulness of ClipMine.</p>
@@ -154,7 +163,7 @@
             <img src="Images/using-pic5.png" alt="Computer Vision Talks Logo">
             <img src="Images/using-pic6.png" alt="500 Logo">
         </div>
-    <p>Want to embed videos on your website?<a href="#">content</a></p>
+    <p>Want to embed videos on your website? <a href="#">content</a></p>
     </section>
 
 <!--Tag-Bar Section-->
@@ -179,7 +188,12 @@
 
 <!--Footer-->
     <footer class="footer">
-        <p><a href="#">Contact us</a> | <a href="#">About ClipMine</a> | <a href="#">Blog</a> | <a href="#">Help Center</a> </p>
+        <p>
+        <a href="#">Contact us</a> | 
+        <a href="#">About ClipMine</a> | 
+        <a href="#">Blog</a> | 
+        <a href="#">Help Center</a> 
+    </p>
         <p>© 2016 ClipMine, Inc. Terms of use | Privacy Policy</p>
     </footer>
 
