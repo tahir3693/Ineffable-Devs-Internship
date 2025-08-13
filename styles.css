@@ -39,6 +39,10 @@
 .nav-left a:hover, .nav-right a:hover {
     color: #4285f4;
 }
+.nav-left select {
+    border: white;
+    cursor: pointer;
+}
 
 /* Top section styling */
 .info-content {
@@ -151,5 +155,120 @@
     font-size: 40px;
 }
 .feature-types {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 35px;
+}
+.feature-details {
+    max-width: 350px;
+}
+.feature-details img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid #eee;
+}
+.feature-details h3 {
+    font-size: 24px;
+    font-weight: lighter;
+    padding: 14px;
+}
+.feature-details p {
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Benefits Section styling */
+.benefits {
+    padding: 40px 20px;
+    text-align: center;
+}
+.benefits h2 {
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+.benefits ul {
+    max-width: 800px;
+    padding: 0;
+    margin: 0 auto;
+    gap: 20px;
+    list-style: none;
+}
+.benefits li {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 40px;
+    gap: 15px;
+}
+.benefits li img {
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+}
+.benefits li strong {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.benefits li p {
+    font-size: 14px;
+}
+
+/* Collection section styling */
+.collection {
+    text-align: center;
+    background: white;
+    padding: 40px 20px;
+}
+.collection h2 {
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+.collection-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.collection-item1 {
+    background-image: url(Images/collection-startup.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    width: 410px;
+    height: 160px;
     
+}
+.collection-item1 p {
+    font-size: 24px;
+    font-weight: lighter;
+    margin-top: 65px;
+}
+.collection-item2 {
+    background-image: url(Images/collection-ml.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    width: 410px;
+    height: 160px;
+}
+.collection-item2 p {
+    font-size: 24px;
+    font-weight: lighter;
+    margin-top: 65px;
+}
+.detail {
+    width: 45%;
+    text-align: center;
+    margin-left: 410px;
+    font-size: 16px;
+    margin-top: 50px;
 }
