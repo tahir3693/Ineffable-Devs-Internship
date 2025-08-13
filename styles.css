@@ -8,6 +8,7 @@
     color: #333;
 }
 
+/* Header Styling */
 .header {
     display: flex;
     align-items: center;
@@ -39,6 +40,7 @@
     color: #4285f4;
 }
 
+/* Top section styling */
 .info-content {
     background-image: url(Images/top-section.jpg);
     background-size: cover;
@@ -71,6 +73,7 @@
     background: #357ae8;
 }
 
+/* Help text styling */
 .help {
     background: white;
     text-align: center;
@@ -78,6 +81,75 @@
 }
 .help h2 {
     font-weight: lighter;
-    border-bottom: 25px;
+    border-bottom: 30px;
+    font-size: 35px;
+}
+.help p {
+    font-size: 16px;
 }
 
+/* Video section styling */
+.sug-videos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 30px 15px;
+}
+.video {
+    max-width: 350px;
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.video img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.video .video-title {
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 10px;
+    margin: 0;
+}
+.video .video-detail {
+    font-size: 14px;
+    color: 555;
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 125px;
+    margin-left: -80px;
+    color: #333;
+}
+.video .video-actions {
+    background-color: lightgray;
+    border-top: 1px solid #eee;
+    border-radius: 6px;
+}
+.video .video-actions a {
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 110px;
+    margin-left: -80px;
+    color: #333;
+}
+.video .video-actions a:hover {
+    color: #357ae8
+}
+
+/* Features section styling */
+.features {
+    text-align: center;
+    background: white;
+    padding: 40px 20px;
+}
+.features h2 {
+    font-weight: lighter;
+    border-bottom: 30px;
+    font-size: 40px;
+}
+.feature-types {
+    
+}
