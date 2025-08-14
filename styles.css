@@ -228,7 +228,7 @@
 .collection h2 {
     font-size: 40px;
     font-weight: lighter;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 .collection-grid {
     display: flex;
@@ -270,5 +270,91 @@
     text-align: center;
     margin-left: 410px;
     font-size: 16px;
-    margin-top: 50px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+/* Users section styling */
+.users {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+.users h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+.user-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.user-logos img {
+    margin-left: 120px;
+    margin-right: 90px;
+    height: 80px;
+}
+.users p {
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+/* Tag bar section styling */
+.tag-bar {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+}
+.tag-bar h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+.tag-bar form {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.tag-bar input {
+    flex: 1;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 4px;
+}
+.tag-bar button {
+    font-size: 14px;
+    padding: 10px 10px;
+    background-color:  #4285f4; 
+    border: 1px solid #ccc;
+    border-radius: 0 3px 3px 0;
+    color: white;
+    cursor: pointer;
+}
+
+/* Platforms section styling */
+.platforms {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+.platforms h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+.platform-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+.platform-icons img {
+    height: 40px;
 }
