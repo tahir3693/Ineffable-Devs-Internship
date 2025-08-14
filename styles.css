@@ -409,7 +409,20 @@
     .video {
         max-width: 100%;
     }
-
+    .video img {
+        width: 100%;
+        height: auto;
+    }
+    .video .video-detail {
+        text-align: left;
+        padding: 5px;
+        margin: 0;
+    }
+    .video .video-actions a {
+        text-align: left;
+        padding: 5px;
+        margin: 0;
+    }
     .feature-types {
         flex-direction: column;
         padding: 20px;
@@ -442,7 +455,6 @@
         margin: 20px auto;
         font-size: 14px;
     }
-
     .user-logos {
         flex-direction: column;
     }
